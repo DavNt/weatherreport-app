@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Weather Condition App using weatherapi</h1>
 
-## Available Scripts
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://dn-weather.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/DavNt/weatherreport-app">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+![screenshot](./src/resources/screenshot/screenshot-1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Introduce to project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Where can I see your demo?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <a href="https://dn-weather.netlify.app/">
+    Demo
+  </a>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- What was your experience?
+  
+  Using React, React Hooks, Axios and Bootstrap components 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Your wisdom? :)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  Experience is gained through doing something.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://reactjs.org/)
 
-### Code Splitting
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- List the features of your application -->
 
-### Analyzing the Bundle Size
+-User story: I can see city weather as default, preferably my current location
+-User story: I can search for city
+-User story: I can see weather of today and the next 5 days
+-User story: I can see the date and location of the weather
+-User story: I can see according to image for each type of weather
+-User story: I can see the min and max degree each day
+-User story: I can see wind status and wind direction
+-User story: I can see humidity percentage
+-User story: I can see a visibility indicator
+-User story: I can see the air pressure number
+-User story: I can request my current location weather
+-User story: I can convert temperature in Celcius to Fahrenheit and vice versa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How To Use
 
-### Making a Progressive Web App
+<!-- Example: -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### Advanced Configuration
+```bash
+# Clone this repository
+$ git clone https://github.com/DavNt/weatherreport-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Install dependencies
+$ npm install
 
-### Deployment
+# Run the app
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgements
 
-### `npm run build` fails to minify
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+
+## Contact
+
+- GitHub [@DavNt](https://github.com/DavNt)
+- Twitter [@DavNtM](https://twitter.com/DavNtM)

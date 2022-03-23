@@ -1,38 +1,186 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 .App {
-  text-align: center;
+  color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.foota{
+  color: #bebaba;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainleft{
+  background: #1E213A;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainright{
+  background: #100E1D;
+}
+/* current weather css start*/
+.cw-row{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.cw-colum{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* align-content: center; */
+}
+.conditionbg{
+  background-image: url('./resources/Cloud-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.condicon{
+  width: 90px;
+  margin-top: 55px;
+  align-self: center;
+}
+/* current weather css end*/
+
+/* daysweather component css */
+.daycon-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bgcolor{
+  background: #1E213A;
+  border-radius: 8px;
+  
+}
+.daycontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  width: 120px;
+}
+.dateicon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.daytemp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skyic{
+  width: 50px;
+  margin: 5px;
+}
+.highdet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.compass{
+  width: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.prognumbs{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -25px;
+  font-size: 11px;
+}
+.progpercnt{
+  margin-top: -15px;
+  font-size: 11px;
+}
+.bgsearch{
+  background: #6E707A;
+}
+.searchcont{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.typesearch{
+  padding: 8px;
+  height: 40px;
+  border-radius: 5px;
+}
+.typesearch, .detectsearch :hover{
+  cursor: pointer;
+}
+.detectsearch{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+/* .ds-locic{
+  align-self: center;
+} */
+.closedraw:hover{
+  cursor: pointer;
+}
+.unitc{
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+}
+.selected{
+  color: #000;
+  background-color: #fff;
+}
+.drawcontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.inputsearch{
+  width: 100%;
+}
+.txtsearch{
+  background-color: transparent;
+  color: #fff;
+  border: #fff 1px solid;
+  width: 60%;
+  height: 35px;
+  text-indent: 18px;
+}
+.btnsearch{
+  border: none;
+  background-color: #122afd;
+  color: #fff;
+  width: 30%;
+  height: 35px;
+}
+.suggstlist{
+  background-color: #1E213A;
+  color: #fff;
+  width: 90%;
+}
+.suggstlist:hover{
+  cursor: pointer;
+  border: #e6e3e3 1px solid;
+  padding: 8px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
