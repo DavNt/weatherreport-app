@@ -18,7 +18,7 @@ export default function MainWindow(props){
   // https://www.weatherapi.com/docs/
   // api used for weather data
   const apiKey = "e6daad2c30814c31b74125033220703";
-  let apiUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=7&api=no&alerts=no&q=`;
+  let apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=7&api=no&alerts=no&q=`;
 
   useEffect(() => {
     axios.get(apiUrl + `bulawayo`)
