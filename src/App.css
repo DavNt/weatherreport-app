@@ -6,26 +6,28 @@ body, html{
 .App {
   color: #fff;
 }
+
+/* footer a link */
 .foota{
   color: #bebaba;
 }
+
+/* base background  */
 .mainleft{
   background: #1E213A;
 }
 .mainright{
   background: #100E1D;
 }
+/*  */
 /* current weather css start*/
 .cw-row{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .cw-colum{
   display: flex;
   justify-content: center;
-  /* align-content: center; */
 }
 .conditionbg{
   background-image: url('./resources/Cloud-background.png');
@@ -73,6 +75,8 @@ body, html{
   width: 50px;
   margin: 5px;
 }
+/*  */
+/* highlights css */
 .highdet{
   display: flex;
   flex-direction: column;
@@ -82,7 +86,7 @@ body, html{
 .compass{
   width: 20px;
 }
-
+/* progress bar surround  */
 .prognumbs{
   display: flex;
   justify-content: space-between;
@@ -93,6 +97,8 @@ body, html{
   margin-top: -15px;
   font-size: 11px;
 }
+/*  */
+/* searching section css */
 .bgsearch{
   background: #6E707A;
 }
@@ -117,12 +123,11 @@ body, html{
   border-radius: 50%;
   border: none;
 }
-/* .ds-locic{
-  align-self: center;
-} */
 .closedraw:hover{
   cursor: pointer;
 }
+/*  */
+/* tempe format type css */
 .unitc{
   border: none;
   border-radius: 50%;
@@ -134,6 +139,8 @@ body, html{
   color: #000;
   background-color: #fff;
 }
+/*  */
+/* drawer content css */
 .drawcontain{
   display: flex;
   flex-direction: column;
@@ -168,6 +175,7 @@ body, html{
   border: #e6e3e3 1px solid;
   padding: 8px;
 }
+/*  */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
