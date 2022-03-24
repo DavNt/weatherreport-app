@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function DrawerContent(props){
-  const [places, setPlaces] = useState(["Harare","Pretoria","London"])
+  const [places] = useState(["Harare","Pretoria","London"])
   const [txtsrch, setTxtsrch] = useState('');
 
   const reserInput = () => {
